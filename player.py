@@ -37,3 +37,6 @@ class Player(CircleShape):
             self.move(dt)
         if keys[pygame.K_s]:
             self.move(-1 * dt)
+
+    def shoot(self):
+        pass
